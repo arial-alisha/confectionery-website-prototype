@@ -1,3 +1,51 @@
+@-moz-viewport {width:device-width; scale: 1; }
+@-ms-viewport {width:device-width; scale: 1; }
+@-o-viewport {width:device-width; scale: 1; }
+@-webkit-viewport {width:device-width; scale: 1; }
+@viewport {width:device-width; scale: 1; }
+
+html {
+
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: "Program", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #682666;
+}
+
+.nav a {
+  color: white;
+  display: inline-block;
+  padding: .5em 2%;
+  text-decoration: none;
+}
+
 .header {
 
 }
@@ -22,5 +70,5 @@
 }
 
 .h2 {
-  
+
 }
