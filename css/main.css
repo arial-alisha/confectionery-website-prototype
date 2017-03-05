@@ -36,11 +36,11 @@ html {
 h1 {
   margin: 0;
   text-align: center;
-  color: #682666;
+  color: grey;
 }
 
 .nav a {
-  color: white;
+  color: grey;
   display: inline-block;
   padding: .5em 2%;
   text-decoration: none;
