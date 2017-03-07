@@ -46,29 +46,43 @@ h1 {
   text-decoration: none;
 }
 
-.header {
-
+.image {
+  width: 100%;
 }
 
-.header nav {
-
+.img1 {
+  margin: 0;
+  display: inline-block;
+  width: 99%;
+  padding: 1%;
 }
 
-.header h1 {
-
-}
-.header li {
-
-}
-
-.header nav a {
-
+.img2 {
+  margin: 0;
+  width: 99%;
+  padding: 1%;
 }
 
-.main {
-
+.img3 {
+  margin: 0;
+  width: 99%;
+  padding: 1%;
 }
 
-.h2 {
+.s1 {
+  float: left;
+  vertical-align: top;
+  width: 33.3%;
+}
 
+.s2 {
+  float: left;
+  vertical-align: top;
+  width: 33.3%;
+}
+
+.s3 {
+  float: left;
+  vertical-align: top;
+  width: 33.3%;
 }
