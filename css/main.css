@@ -31,15 +31,21 @@ html {
   box-sizing: inherit;
 }
 
+.header {
+  background-color: black;
+}
 .nav li {
   display: inline-block;
   list-style-type: none;
+  color: white;
 }
 
 .nav {
   padding: 0;
   margin: 0;
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
 h1 {
@@ -55,8 +61,9 @@ h1 {
   text-decoration: none;
 }
 
-.nav a hover {
-  background-color: blue;
+a:hover {
+  background-color: #ffcc99;
+  color: white;
 }
 .image {
   width: 100%;
