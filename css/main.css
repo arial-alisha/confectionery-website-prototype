@@ -1,11 +1,20 @@
-@-moz-viewport {width:device-width; scale: 1; }
-@-ms-viewport {width:device-width; scale: 1; }
-@-o-viewport {width:device-width; scale: 1; }
-@-webkit-viewport {width:device-width; scale: 1; }
-@viewport {width:device-width; scale: 1; }
+@-moz-viewport {
+  width:device-width; scale: 1;
+}
+@-ms-viewport {
+  width:device-width; scale: 1;
+}
+@-o-viewport {
+  width:device-width; scale: 1;
+}
+@-webkit-viewport {
+  width:device-width; scale: 1;
+}
+@viewport {
+  width:device-width; scale: 1;
+}
 
 html {
-
   box-sizing: border-box;
 
   -moz-text-size-adjust: 100%;
@@ -46,13 +55,18 @@ h1 {
   text-decoration: none;
 }
 
+.nav a hover {
+  background-color: blue;
+}
 .image {
   width: 100%;
+  position: absolute;
+  position: relative;
 }
 
 .img1 {
   margin: 0;
-  display: inline-block;
+  display: block;
   width: 99%;
   padding: 1%;
 }
