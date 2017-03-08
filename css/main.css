@@ -36,21 +36,16 @@ html {
   box-sizing: inherit;
 }
 
-.header {
+header {
   background-color: black;
 }
 
-.nav li a{
+nav li a{
   list-style-type: none;
   color: white;
 }
 
-.li {
-  display: inline;
-  float: left;
-}
-
-.nav {
+nav {
   padding: 0;
   margin: 0;
   text-align: center;
@@ -64,11 +59,16 @@ h1 {
   color: black;
 }
 
-.nav a {
+nav a {
   color: black;
-  display: block;
   padding: .5em 2%;
   text-decoration: none;
+}
+
+.nav li {
+  display: inline-block;
+  padding: .5em;
+  width: 20%;
 }
 
 a:hover {
@@ -117,11 +117,4 @@ a:hover {
   float: left;
   vertical-align: top;
   width: 33.3%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
