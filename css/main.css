@@ -1,17 +1,22 @@
 @-moz-viewport {
-  width:device-width; scale: 1;
+  width:device-width;
+  scale: 1;
 }
 @-ms-viewport {
-  width:device-width; scale: 1;
+  width:device-width;
+  scale: 1;
 }
 @-o-viewport {
-  width:device-width; scale: 1;
+  width:device-width;
+  scale: 1;
 }
 @-webkit-viewport {
-  width:device-width; scale: 1;
+  width:device-width;
+  scale: 1;
 }
 @viewport {
-  width:device-width; scale: 1;
+  width:device-width;
+  scale: 1;
 }
 
 html {
@@ -34,10 +39,15 @@ html {
 .header {
   background-color: black;
 }
-.nav li {
-  display: inline-block;
+
+.nav li a{
   list-style-type: none;
   color: white;
+}
+
+.li {
+  display: inline;
+  float: left;
 }
 
 .nav {
@@ -56,15 +66,16 @@ h1 {
 
 .nav a {
   color: black;
-  display: inline-block;
+  display: block;
   padding: .5em 2%;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #ffcc99;
+  background-color: #fc9;
   color: white;
 }
+
 .image {
   width: 100%;
   position: absolute;
@@ -106,4 +117,11 @@ a:hover {
   float: left;
   vertical-align: top;
   width: 33.3%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
