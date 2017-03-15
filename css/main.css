@@ -40,7 +40,7 @@ header {
   background-color: black;
 }
 
-nav li a{
+nav li a {
   list-style-type: none;
   color: white;
 }
@@ -117,4 +117,49 @@ a:hover {
   float: left;
   vertical-align: top;
   width: 33.3%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
 }
