@@ -129,12 +129,21 @@ a:hover {
     display: inline-block;
   }
 
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
 }
 
 @media only screen and (min-width: 38em) {
 
   .nav {
     text-align: center;
+  }
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   .nav li {
@@ -151,6 +160,12 @@ a:hover {
   .nav li {
     display: inline-block;
   }
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -162,4 +177,10 @@ a:hover {
   .nav li {
     display: inline-block;
   }
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }
