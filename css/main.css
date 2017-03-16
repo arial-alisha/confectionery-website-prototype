@@ -1,21 +1,21 @@
 @-moz-viewport {
-  width:device-width;
+  width: device-width;
   scale: 1;
 }
 @-ms-viewport {
-  width:device-width;
+  width: device-width;
   scale: 1;
 }
 @-o-viewport {
-  width:device-width;
+  width: device-width;
   scale: 1;
 }
 @-webkit-viewport {
-  width:device-width;
+  width: device-width;
   scale: 1;
 }
 @viewport {
-  width:device-width;
+  width: device-width;
   scale: 1;
 }
 
@@ -115,7 +115,6 @@ a:hover {
 
 .s3 {
   float: left;
-  vertical-align: top;
   width: 33.3%;
 }
 
