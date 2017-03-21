@@ -19,6 +19,10 @@
   scale: 1;
 }
 
+body {
+  margin: 0;
+}
+
 html {
   box-sizing: border-box;
 
@@ -36,16 +40,39 @@ html {
   box-sizing: inherit;
 }
 
-nav li a {
-  list-style-type: none;
-  color: white;
-}
-
-nav {
-  padding: 0;
-  margin: 0;
+header{
   text-align: center;
+  padding-top: 1em;
+}
+header img{
+  width: 105px;
+  position: absolute;
+  float:  left;
+}
+header h1{
+  display: inline-block;
+  height: 3em;
+  margin: 2em 0 0 0;
+}
+header nav li {
+  list-style-type: none;
+}
+header nav a {
+  display: block;
+  padding: .5em;
+  text-align: left;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header nav{
   background-color: black;
+  margin-top: 1em;
+}
+header a{
+  text-decoration: none;
   color: white;
 }
 
@@ -54,23 +81,6 @@ h1 {
   text-align: center;
   color: black;
   background-color: white;
-}
-
-nav a {
-  color: black;
-  padding: .5em 2%;
-  text-decoration: none;
-}
-
-.nav li {
-  display: inline-block;
-  padding: .5em;
-  width: 20%;
-}
-
-a:hover {
-  background-color: #fc9;
-  color: white;
 }
 
 .image {
@@ -82,37 +92,24 @@ a:hover {
 .img1 {
   margin: 0;
   display: block;
-  width: 99%;
-  padding: 1%;
+  width: 100%;
 }
 
 .img2 {
   margin: 0;
-  width: 99%;
-  padding: 1%;
+  width: 100%;
 }
 
 .img3 {
   margin: 0;
-  width: 99%;
-  padding: 1%;
+  width: 100%;
 }
 
-.s1 {
+.grid {
   float: left;
   vertical-align: top;
-  width: 33.3%;
-}
-
-.s2 {
-  float: left;
-  vertical-align: top;
-  width: 33.3%;
-}
-
-.s3 {
-  float: left;
-  width: 33.3%;
+  width: 100%;
+  padding-bottom: 2em;
 }
 
 h4 {
@@ -131,6 +128,12 @@ h4 {
 
 h2 {
   text-align: center;
+  clear: left;
+}
+
+.back {
+  background-color: #D3D3D3;
+  padding: 1em;
 }
 
 .centr {
@@ -171,6 +174,15 @@ h2 {
 
   .nav li {
     display: inline-block;
+  }
+
+  .grid {
+    float: left;
+    vertical-align: top;
+    width: 33.3%;
+  }
+  header nav li{
+  display: inline-block;
   }
 }
 
