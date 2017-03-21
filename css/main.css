@@ -45,22 +45,24 @@ header{
   padding-top: 1em;
 }
 header img{
-  width: 105px;
-  position: absolute;
-  float:  left;
+  width: 55px;
+  position: relative;
+  left:  1.5%;
+
 }
 header h1{
   display: inline-block;
-  height: 3em;
-  margin: 2em 0 0 0;
+  height: 2em;
 }
+
 header nav li {
   list-style-type: none;
+  display: inline-block;
 }
 header nav a {
   display: block;
   padding: .5em;
-  text-align: left;
+  text-align: center;
 }
 header nav ul{
   margin: 0;
@@ -73,6 +75,11 @@ header nav{
 }
 header a{
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: #fc9;
   color: white;
 }
 
@@ -91,7 +98,6 @@ h1 {
 
 .img1 {
   margin: 0;
-  display: block;
   width: 100%;
 }
 
@@ -109,16 +115,19 @@ h1 {
   float: left;
   vertical-align: top;
   width: 100%;
-  padding-bottom: 2em;
+  padding: 0 0 3em 0;
 }
 
-h4 {
-  margin: 0;
-  text-align: center;
-  padding: 1rem;
-  border-radius: 3px;
-  border: 2px solid #EBDFC0;
-  background-color: #A68569;
+.readmore {
+    margin: 0;
+    padding: 0.5em 1em;
+    background-color: #000;
+    border-radius: 4px;
+    color:  #fff;
+ }
+
+ .readmore:hover {
+    background-color: #fc9;
  }
 
  h4:hover {
@@ -132,8 +141,9 @@ h2 {
 }
 
 .back {
-  background-color: #D3D3D3;
-  padding: 1em;
+  padding: 2em 2em 4em 2em;
+  max-width: 50em;
+  margin: 0 auto;
 }
 
 .centr {
@@ -141,10 +151,17 @@ h2 {
 }
 
 .about {
-  padding-top: 25.5em;
-  float: clear;
+  clear: left;
+  background-color: #F0F0F0;
+  padding: 2em 2em 4em 2em;
 }
-
+footer{
+  padding: 2em 2em 4em 2em;
+}
+.maxwid {
+  max-width: 35em;
+  margin: 0 auto;
+}
 @media only screen and (min-width: 25em) {
 
   .nav {
@@ -180,9 +197,12 @@ h2 {
     float: left;
     vertical-align: top;
     width: 33.3%;
+    padding: 0 .5em 3em .5em;
   }
-  header nav li{
-  display: inline-block;
+  header nav a {
+    display: inline-block;
+    padding: .5em;
+    text-align: center;
   }
 }
 
